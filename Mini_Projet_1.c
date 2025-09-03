@@ -13,19 +13,16 @@ int main(){
     printf("\nle total des notes:");
 
     for (int i = 0; i < 5; i++)
-    {
+    { 
         Som += N[i];
     }
         printf("\nResultat : %d",Som);
 
     printf("\nla moyenne :");
-    for (int i = 0; i < 5; i++)
-    {
         Moy =Som / 5;
-    }
             printf("\nResultat : %d",Moy);
 
-    int j = 0 ;
+    int j = 1 ;
     Max = N[0];
     while (j<5)
     {
